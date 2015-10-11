@@ -1,0 +1,10 @@
+Warning (10273): Verilog HDL warning at LC3_CPU.v(114): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at LC3_CPU.v(133): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at LC3_CPU.v(134): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at LC3_CPU.v(135): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at LC3_CPU.v(136): extended using "x" or "z"
+Info (10281): Verilog HDL Declaration information at LC3_CPU.v(40): object "IR" differs only in case from object "ir" in the same scope
+Info (10281): Verilog HDL Declaration information at LC3_CPU.v(46): object "PC" differs only in case from object "pc" in the same scope
+Info (10281): Verilog HDL Declaration information at LC3_CPU.v(83): object "MAR" differs only in case from object "mar" in the same scope
+Info (10281): Verilog HDL Declaration information at LC3_CPU.v(89): object "MDR" differs only in case from object "mdr" in the same scope
+Info (10281): Verilog HDL Declaration information at LC3_CPU.v(128): object "CC" differs only in case from object "cc" in the same scope

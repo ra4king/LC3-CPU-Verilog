@@ -1,0 +1,10 @@
+module ConditionCode(
+	input clk,
+	input ldCC,
+	input [15:0] bus,
+	output [2:0] CC
+);
+	
+	Register #(3) 
+	
+	always @()

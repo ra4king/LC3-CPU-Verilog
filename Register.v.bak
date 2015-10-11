@@ -1,0 +1,12 @@
+module Register(
+	input clk,
+	input we,
+	inout [15:0] data
+);
+
+	reg [15:0] value;
+
+	assign data = we ? 16'bZ
+
+	always @(posedge clk) begin
+		

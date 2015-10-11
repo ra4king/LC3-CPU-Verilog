@@ -1,0 +1,173 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\Roi Atalla\Documents\Programming\Verilog\LC3_CPU\simulation\modelsim
+vALU
+I;QfUz0kCOd@=dNLb9JbO=1
+Vo170ic8>FRoT^B8Nc>E5<0
+Z1 dE:\Roi Atalla\Documents\Programming\Verilog\LC3_CPU\simulation\modelsim
+w1443929243
+8E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/ALU.v
+FE:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/ALU.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work {+incdir+E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU} -O0
+n@a@l@u
+!i10b 1
+!s100 gHeFU]6@2c>KP^o;K@UAY1
+!s85 0
+!s108 1444599389.101000
+!s107 E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/ALU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU|E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/ALU.v|
+!s101 -O0
+vConditionCode
+IB]akI>`4^i1:hXBNGB1^=3
+VM^liFIRE0SH`m4ihYZ;Ii2
+R1
+w1444120293
+8E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/ConditionCode.v
+FE:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/ConditionCode.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@condition@code
+!i10b 1
+!s100 `h<?]HM11THi4=_9IGWLX2
+!s85 0
+!s108 1444599389.202000
+!s107 E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/ConditionCode.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU|E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/ConditionCode.v|
+!s101 -O0
+vLC3_CPU
+IIKV2H:ml=kD9gSO77BN`m3
+VUCRXLA@k>`bf]4ihBLZUR3
+R1
+w1444599310
+8E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CPU.v
+FE:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CPU.v
+L0 1
+R2
+r1
+31
+R3
+n@l@c3_@c@p@u
+R4
+!i10b 1
+!s100 _0FIaD_OM60z]_eL8=oGV3
+!s85 0
+!s108 1444599387.771000
+!s107 E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CPU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU|E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CPU.v|
+!s101 -O0
+vMemoryController
+IUP[QT_?_Z4?`Kaf^1h_?i0
+VO`JITf>gnQfUn=O?hi8Ha2
+R1
+w1444029524
+8E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/MemoryController.v
+FE:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/MemoryController.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@memory@controller
+!i10b 1
+!s100 MBZkSn`l=GgOZH@f8=Rh81
+!s85 0
+!s108 1444599388.041000
+!s107 E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/MemoryController.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU|E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/MemoryController.v|
+!s101 -O0
+vMicrocontroller
+!i10b 1
+!s100 7UbD1iV3G>mRNDJ@4oQK92
+IhEUocaD5WmY=8WnB4RRCn3
+VIDn76;<BcZaEfHW10mRTm1
+R1
+w1444464686
+8E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/Microcontroller.v
+FE:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/Microcontroller.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1444599389.477000
+!s107 E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/Microcontroller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU|E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/Microcontroller.v|
+!s101 -O0
+R3
+R4
+n@microcontroller
+vRegFile
+IfM1PY:QJn<cZbmJ89]R_N2
+VOSnC3ZEX?`DZG;9f_iGnm1
+R1
+w1443986794
+8E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/RegFile.v
+FE:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/RegFile.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@reg@file
+!i10b 1
+!s100 m=33g5Q1P>Sc`E2fB2hk>0
+!s85 0
+!s108 1444599388.835000
+!s107 E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/RegFile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU|E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/RegFile.v|
+!s101 -O0
+vRegister
+I@0B:echRIGncEz6;]nU`_3
+Vzcl9hD>Ag^AcFObmkjfS92
+R1
+w1444026738
+8E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/Register.v
+FE:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/Register.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@register
+!i10b 1
+!s100 nA:fhPDXz]9=`V3m@Sd0b2
+!s85 0
+!s108 1444599388.311000
+!s107 E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/Register.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU|E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/Register.v|
+!s101 -O0
+vSEXT
+IlPFTMT<VOBg;7o^ZBi:gB3
+VMYFIi7C0PiAV2lVl<3ENo1
+R1
+w1443986551
+8E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/SEXT.v
+FE:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/SEXT.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@s@e@x@t
+!i10b 1
+!s100 :2XMch?7F7kgY7AXgz3e73
+!s85 0
+!s108 1444599388.569000
+!s107 E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/SEXT.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU|E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/SEXT.v|
+!s101 -O0

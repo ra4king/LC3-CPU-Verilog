@@ -1,0 +1,14 @@
+module LC3_CPU_Test;
+
+	reg clk;
+	reg [9:0] switches;
+	reg [3:0] key;
+	
+	wire [6:0] HEX0, HEX1, HEX2, HEX3;
+	wire [9:0] LEDR;
+	wire [7:0] LEDG;
+	wire [15:0] PC_out;
+	wire [15:0] BUS_out;
+	
+	initial begin
+		

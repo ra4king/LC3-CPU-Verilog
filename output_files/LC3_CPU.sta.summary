@@ -1,0 +1,53 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'CLOCK_50'
+Slack : -14.412
+TNS   : -3256.966
+
+Type  : Slow Model Setup 'Microcontroller:control|Register:stateReg|out[0]~_Duplicate_1'
+Slack : -2.940
+TNS   : -208.774
+
+Type  : Slow Model Hold 'Microcontroller:control|Register:stateReg|out[0]~_Duplicate_1'
+Slack : -5.095
+TNS   : -393.393
+
+Type  : Slow Model Hold 'CLOCK_50'
+Slack : -4.844
+TNS   : -18.070
+
+Type  : Slow Model Minimum Pulse Width 'Microcontroller:control|Register:stateReg|out[0]~_Duplicate_1'
+Slack : -2.538
+TNS   : -687.636
+
+Type  : Slow Model Minimum Pulse Width 'CLOCK_50'
+Slack : -2.064
+TNS   : -359.707
+
+Type  : Fast Model Setup 'CLOCK_50'
+Slack : -4.919
+TNS   : -1062.308
+
+Type  : Fast Model Setup 'Microcontroller:control|Register:stateReg|out[0]~_Duplicate_1'
+Slack : -2.083
+TNS   : -111.168
+
+Type  : Fast Model Hold 'Microcontroller:control|Register:stateReg|out[0]~_Duplicate_1'
+Slack : -2.381
+TNS   : -187.176
+
+Type  : Fast Model Hold 'CLOCK_50'
+Slack : -2.248
+TNS   : -13.845
+
+Type  : Fast Model Minimum Pulse Width 'Microcontroller:control|Register:stateReg|out[0]~_Duplicate_1'
+Slack : -2.037
+TNS   : -515.966
+
+Type  : Fast Model Minimum Pulse Width 'CLOCK_50'
+Slack : -1.880
+TNS   : -297.460
+
+------------------------------------------------------------

@@ -1,0 +1,6 @@
+module SEXT(
+	input [BIT_SIZE_IN-1:0] in,
+	output [BIT_SIZE_OUT-1:0] out
+);
+
+endmodule

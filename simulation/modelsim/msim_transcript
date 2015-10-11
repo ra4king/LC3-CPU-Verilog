@@ -1,0 +1,202 @@
+# Reading C:/Program Files (x86)/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do LC3_CPU_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\Program Files (x86)\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\Program Files (x86)\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CPU.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module LC3_CPU
+# 
+# Top level modules:
+# 	LC3_CPU
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/MemoryController.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MemoryController
+# 
+# Top level modules:
+# 	MemoryController
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/Register.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Register
+# 
+# Top level modules:
+# 	Register
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/SEXT.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module SEXT
+# 
+# Top level modules:
+# 	SEXT
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/RegFile.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module RegFile
+# 
+# Top level modules:
+# 	RegFile
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/ALU.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/ConditionCode.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ConditionCode
+# 
+# Top level modules:
+# 	ConditionCode
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/Microcontroller.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Microcontroller
+# 
+# Top level modules:
+# 	Microcontroller
+# 
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CPU_Test.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module LC3_CPU_Test
+# ** Error: E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CPU_Test.v(28): near "load": syntax error, unexpected IDENTIFIER, expecting ';'
+# ** Error: C:/Program Files (x86)/altera/13.0sp1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./LC3_CPU_run_msim_rtl_verilog.do line 17
+# C:/Program Files (x86)/altera/13.0sp1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CP..."
+do LC3_CPU_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CPU.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module LC3_CPU
+# 
+# Top level modules:
+# 	LC3_CPU
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/MemoryController.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MemoryController
+# 
+# Top level modules:
+# 	MemoryController
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/Register.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Register
+# 
+# Top level modules:
+# 	Register
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/SEXT.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module SEXT
+# 
+# Top level modules:
+# 	SEXT
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/RegFile.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module RegFile
+# 
+# Top level modules:
+# 	RegFile
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/ALU.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/ConditionCode.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ConditionCode
+# 
+# Top level modules:
+# 	ConditionCode
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/Microcontroller.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Microcontroller
+# 
+# Top level modules:
+# 	Microcontroller
+# 
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CPU_Test.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module LC3_CPU_Test
+# ** Error: E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CPU_Test.v(28): near "load -i RAM.hex -for": syntax error, unexpected STRING_LITERAL, expecting ';'
+# ** Error: C:/Program Files (x86)/altera/13.0sp1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./LC3_CPU_run_msim_rtl_verilog.do line 17
+# C:/Program Files (x86)/altera/13.0sp1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CP..."
+do LC3_CPU_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CPU.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module LC3_CPU
+# 
+# Top level modules:
+# 	LC3_CPU
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/MemoryController.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MemoryController
+# 
+# Top level modules:
+# 	MemoryController
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/Register.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Register
+# 
+# Top level modules:
+# 	Register
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/SEXT.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module SEXT
+# 
+# Top level modules:
+# 	SEXT
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/RegFile.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module RegFile
+# 
+# Top level modules:
+# 	RegFile
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/ALU.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/ConditionCode.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ConditionCode
+# 
+# Top level modules:
+# 	ConditionCode
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/Microcontroller.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Microcontroller
+# 
+# Top level modules:
+# 	Microcontroller
+# 
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CPU_Test.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module LC3_CPU_Test
+# ** Error: E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CPU_Test.v(28): near "$": syntax error, unexpected '$'
+# ** Error: C:/Program Files (x86)/altera/13.0sp1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./LC3_CPU_run_msim_rtl_verilog.do line 17
+# C:/Program Files (x86)/altera/13.0sp1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CP..."
