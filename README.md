@@ -5,7 +5,7 @@ This is an initial implementation of the LC3 ISA in Verilog HDL.
 
 Setup
 -----
-Simply open the project in Quartus and hit TRL Simulator button (purple arrow, red clock ricks, white register).
+Simply open the project in Quartus and hit RTL Simulator button (purple arrow, red clock ricks, white register).
 If that gives you an error, find documentation on setting a Verilog simulator with Quartus.
 
 

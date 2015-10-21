@@ -2,52 +2,76 @@
 TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
-Type  : Slow Model Setup 'CLOCK_50'
-Slack : -14.412
-TNS   : -3256.966
+Type  : Slow Model Setup 'CLOCK'
+Slack : -14.685
+TNS   : -3410.585
 
 Type  : Slow Model Setup 'Microcontroller:control|Register:stateReg|out[0]~_Duplicate_1'
-Slack : -2.940
-TNS   : -208.774
+Slack : -3.328
+TNS   : -272.282
+
+Type  : Slow Model Setup 'CLOCK_50'
+Slack : -2.898
+TNS   : -15.618
 
 Type  : Slow Model Hold 'Microcontroller:control|Register:stateReg|out[0]~_Duplicate_1'
-Slack : -5.095
-TNS   : -393.393
+Slack : -4.096
+TNS   : -290.452
+
+Type  : Slow Model Hold 'CLOCK'
+Slack : -3.425
+TNS   : -13.654
 
 Type  : Slow Model Hold 'CLOCK_50'
-Slack : -4.844
-TNS   : -18.070
+Slack : -2.692
+TNS   : -2.692
 
 Type  : Slow Model Minimum Pulse Width 'Microcontroller:control|Register:stateReg|out[0]~_Duplicate_1'
-Slack : -2.538
-TNS   : -687.636
+Slack : -3.092
+TNS   : -882.718
+
+Type  : Slow Model Minimum Pulse Width 'CLOCK'
+Slack : -2.064
+TNS   : -358.076
 
 Type  : Slow Model Minimum Pulse Width 'CLOCK_50'
-Slack : -2.064
-TNS   : -359.707
+Slack : -1.631
+TNS   : -12.629
 
-Type  : Fast Model Setup 'CLOCK_50'
-Slack : -4.919
-TNS   : -1062.308
+Type  : Fast Model Setup 'CLOCK'
+Slack : -4.530
+TNS   : -1007.386
 
 Type  : Fast Model Setup 'Microcontroller:control|Register:stateReg|out[0]~_Duplicate_1'
-Slack : -2.083
-TNS   : -111.168
+Slack : -2.216
+TNS   : -121.335
+
+Type  : Fast Model Setup 'CLOCK_50'
+Slack : -0.477
+TNS   : -1.728
 
 Type  : Fast Model Hold 'Microcontroller:control|Register:stateReg|out[0]~_Duplicate_1'
-Slack : -2.381
-TNS   : -187.176
+Slack : -2.173
+TNS   : -158.693
 
 Type  : Fast Model Hold 'CLOCK_50'
-Slack : -2.248
-TNS   : -13.845
+Slack : -1.721
+TNS   : -1.721
+
+Type  : Fast Model Hold 'CLOCK'
+Slack : -1.685
+TNS   : -12.820
 
 Type  : Fast Model Minimum Pulse Width 'Microcontroller:control|Register:stateReg|out[0]~_Duplicate_1'
-Slack : -2.037
-TNS   : -515.966
+Slack : -2.243
+TNS   : -556.188
+
+Type  : Fast Model Minimum Pulse Width 'CLOCK'
+Slack : -1.880
+TNS   : -296.080
 
 Type  : Fast Model Minimum Pulse Width 'CLOCK_50'
-Slack : -1.880
-TNS   : -297.460
+Slack : -1.380
+TNS   : -10.380
 
 ------------------------------------------------------------

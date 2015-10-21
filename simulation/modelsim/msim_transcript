@@ -62,13 +62,33 @@
 # vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CPU_Test.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module LC3_CPU_Test
-# ** Error: E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CPU_Test.v(28): near "load": syntax error, unexpected IDENTIFIER, expecting ';'
-# ** Error: C:/Program Files (x86)/altera/13.0sp1/modelsim_ase/win32aloem/vlog failed.
-# Error in macro ./LC3_CPU_run_msim_rtl_verilog.do line 17
-# C:/Program Files (x86)/altera/13.0sp1/modelsim_ase/win32aloem/vlog failed.
-#     while executing
-# "vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CP..."
+# 
+# Top level modules:
+# 	LC3_CPU_Test
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc"  LC3_CPU_Test
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps LC3_CPU_Test 
+# Loading work.LC3_CPU_Test
+# Loading work.LC3_CPU
+# Loading work.Register
+# Loading work.RegFile
+# Loading work.SEXT
+# Loading work.MemoryController
+# Loading work.ALU
+# Loading work.ConditionCode
+# Loading work.Microcontroller
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break in Module LC3_CPU_Test at E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CPU_Test.v line 28
+# Simulation Breakpoint: Break in Module LC3_CPU_Test at E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CPU_Test.v line 28
+# MACRO ./LC3_CPU_run_msim_rtl_verilog.do PAUSED at line 24
 do LC3_CPU_run_msim_rtl_verilog.do
+# transcript on
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
 # }
@@ -128,13 +148,39 @@ do LC3_CPU_run_msim_rtl_verilog.do
 # vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CPU_Test.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module LC3_CPU_Test
-# ** Error: E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CPU_Test.v(28): near "load -i RAM.hex -for": syntax error, unexpected STRING_LITERAL, expecting ';'
-# ** Error: C:/Program Files (x86)/altera/13.0sp1/modelsim_ase/win32aloem/vlog failed.
-# Error in macro ./LC3_CPU_run_msim_rtl_verilog.do line 17
-# C:/Program Files (x86)/altera/13.0sp1/modelsim_ase/win32aloem/vlog failed.
-#     while executing
-# "vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CP..."
+# 
+# Top level modules:
+# 	LC3_CPU_Test
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc"  LC3_CPU_Test
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps LC3_CPU_Test 
+# Loading work.LC3_CPU_Test
+# Loading work.LC3_CPU
+# Loading work.Register
+# Loading work.RegFile
+# Loading work.SEXT
+# Loading work.MemoryController
+# Loading work.ALU
+# Loading work.ConditionCode
+# Loading work.Microcontroller
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break in Module LC3_CPU_Test at E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CPU_Test.v line 28
+# Simulation Breakpoint: Break in Module LC3_CPU_Test at E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CPU_Test.v line 28
+# MACRO ./LC3_CPU_run_msim_rtl_verilog.do PAUSED at line 24
+mem load -i RAM.hex -format hex /LC3_CPU_Test/cpu/mc/memory
+# ** Error: (vsim-7) Failed to open mem file "RAM.hex" in read mode.
+# No such file or directory. (errno = ENOENT)
+mem load -i ../../RAM.hex -format hex /LC3_CPU_Test/cpu/mc/memory
+run -all
+restart -f
 do LC3_CPU_run_msim_rtl_verilog.do
+# transcript on
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
 # }
@@ -194,9 +240,122 @@ do LC3_CPU_run_msim_rtl_verilog.do
 # vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CPU_Test.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module LC3_CPU_Test
-# ** Error: E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CPU_Test.v(28): near "$": syntax error, unexpected '$'
-# ** Error: C:/Program Files (x86)/altera/13.0sp1/modelsim_ase/win32aloem/vlog failed.
-# Error in macro ./LC3_CPU_run_msim_rtl_verilog.do line 17
-# C:/Program Files (x86)/altera/13.0sp1/modelsim_ase/win32aloem/vlog failed.
-#     while executing
-# "vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CP..."
+# 
+# Top level modules:
+# 	LC3_CPU_Test
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc"  LC3_CPU_Test
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps LC3_CPU_Test 
+# Loading work.LC3_CPU_Test
+# Loading work.LC3_CPU
+# Loading work.Register
+# Loading work.RegFile
+# Loading work.SEXT
+# Loading work.MemoryController
+# Loading work.ALU
+# Loading work.ConditionCode
+# Loading work.Microcontroller
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break in Module LC3_CPU_Test at E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CPU_Test.v line 28
+# Simulation Breakpoint: Break in Module LC3_CPU_Test at E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CPU_Test.v line 28
+# MACRO ./LC3_CPU_run_msim_rtl_verilog.do PAUSED at line 24
+mem load -i ../../RAM.hex -format hex /LC3_CPU_Test/cpu/mc/memory
+run -all
+restart -f
+do LC3_CPU_run_msim_rtl_verilog.do
+# transcript on
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CPU.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module LC3_CPU
+# 
+# Top level modules:
+# 	LC3_CPU
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/MemoryController.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MemoryController
+# 
+# Top level modules:
+# 	MemoryController
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/Register.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Register
+# 
+# Top level modules:
+# 	Register
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/SEXT.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module SEXT
+# 
+# Top level modules:
+# 	SEXT
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/RegFile.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module RegFile
+# 
+# Top level modules:
+# 	RegFile
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/ALU.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/ConditionCode.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ConditionCode
+# 
+# Top level modules:
+# 	ConditionCode
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/Microcontroller.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Microcontroller
+# 
+# Top level modules:
+# 	Microcontroller
+# 
+# vlog -vlog01compat -work work +incdir+E:/Roi\ Atalla/Documents/Programming/Verilog/LC3_CPU {E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CPU_Test.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module LC3_CPU_Test
+# 
+# Top level modules:
+# 	LC3_CPU_Test
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc"  LC3_CPU_Test
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps LC3_CPU_Test 
+# Loading work.LC3_CPU_Test
+# Loading work.LC3_CPU
+# Loading work.Register
+# Loading work.RegFile
+# Loading work.SEXT
+# Loading work.MemoryController
+# Loading work.ALU
+# Loading work.ConditionCode
+# Loading work.Microcontroller
+# ** Warning: (vsim-3015) E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CPU.v(114): [PCDPC] - Port size (8 or 8) does not match connection size (16) for port 'addr'. The port definition is at: E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/MemoryController.v(1).
+# 
+#         Region: /LC3_CPU_Test/cpu/mc
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break in Module LC3_CPU_Test at E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CPU_Test.v line 28
+# Simulation Breakpoint: Break in Module LC3_CPU_Test at E:/Roi Atalla/Documents/Programming/Verilog/LC3_CPU/LC3_CPU_Test.v line 28
+# MACRO ./LC3_CPU_run_msim_rtl_verilog.do PAUSED at line 24
+mem load -i ../../RAM.hex -format hex /LC3_CPU_Test/cpu/mc/memory
+run -all

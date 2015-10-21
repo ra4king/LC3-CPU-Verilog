@@ -3,7 +3,7 @@
 module LC3_CPU_Test;
 
 	reg clk;
-	reg [9:0] switches = 9'b0;
+	reg [9:0] switches = 9'b1;
 	reg [3:0] key = 4'b1111;
 	
 	wire [6:0] HEX0, HEX1, HEX2, HEX3;
@@ -25,7 +25,7 @@ module LC3_CPU_Test;
 	LC3_CPU cpu(clk, switches, key, HEX0, HEX1, HEX2, HEX3, LEDR, LEDG, PC_out, IR_out, sel_PCMUX_out, ADDER_out, CC_out, MAR_out, MEMORY_out, MDR_out, MEM_EN_out, MEM_W_out, BUS_out, STATE_out, SIGNALS_out);
 	
 	initial begin
-		$stop; // mem load -i RAM.hex -format hex /LC3_CPU_Test/cpu/mc/memory
+		$stop; // mem load -i ../../RAM.hex -format hex /LC3_CPU_Test/cpu/mc/memory
 		
 		clk = 0;
 		key[0] = 0;

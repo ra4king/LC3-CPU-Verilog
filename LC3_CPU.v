@@ -19,8 +19,8 @@ module LC3_CPU(
 	output [27:0] SIGNALS_out
 );
 
+// Use the 50 MHz in the simulator.
 	wire CLOCK;
-	// Use the 50 MHz in the simulator.
 	assign CLOCK = CLOCK_50;
 
 // 50 MHz is too high a frequency, as it looks like
@@ -33,7 +33,7 @@ module LC3_CPU(
 //	always @(posedge CLOCK_50) begin
 //		counter = counter + 1;
 //		if(counter == 50) begin
-//			CLOCK <= ~CLOCK;
+//			CLOCK = ~CLOCK;
 //			counter = 0;
 //		end
 //	end
@@ -109,7 +109,7 @@ module LC3_CPU(
 	assign MEM_EN_out = MEM_EN;
 	assign MEM_W_out = MEM_W;
 	
-	MemoryController #(.ADDRESS_BITS(16), .MEMORY_BITS(16)) mc(.clk(CLOCK), .reset(RESET), .addr(MAR), .data_in(MDR), .data_out(memory_data),
+	MemoryController #(.ADDRESS_BITS(8), .MEMORY_BITS(16)) mc(.clk(CLOCK), .reset(RESET), .addr(MAR[7:0]), .data_in(MDR), .data_out(memory_data),
 																				 .we(MEM_W), .select(MEM_EN), .SW(SW), .KEY(KEY), .LEDR(LEDR),
 																				 .LEDG(LEDG), .HEX0(HEX0), .HEX1(HEX1), .HEX2(HEX2), .HEX3(HEX3));
 	
